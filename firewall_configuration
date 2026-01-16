@@ -1,0 +1,13 @@
+# Enable firewall
+sudo ufw enable
+
+# Check status
+sudo ufw status verbose
+
+# Allow specific services
+sudo ufw allow ssh
+sudo ufw allow http
+sudo ufw allow 443/tcp
+
+# Deny specific ports
+sudo ufw deny 23/tcp    # Telnet
