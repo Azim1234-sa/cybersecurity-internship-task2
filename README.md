@@ -20,7 +20,18 @@ The objective of this task is to understand and implement core operating system 
 - **Virtualization**: Oracle VirtualBox
 - **Windows Security**: Windows 11 + Windows Defender
 - **Linux Security Tools**: UFW, systemctl, chmod, chown, etc.
-
----
-
+- 
 ## 📂 Repository Structure
+
+├── README.md # This file
+├── OS_Security_Checklist.md # Complete hardening checklist
+├── interview_qa.md # Interview questions & answers
+├── commands_used.txt # Important Linux commands
+├── screenshots/ # Documentation screenshots
+│ ├── ubuntu_installation.png
+│ ├── ufw_firewall.png
+│ ├── linux_permissions.png
+│ ├── windows_firewall.png
+│ └── services_management.png
+└── references.txt # Useful resources & links
+
