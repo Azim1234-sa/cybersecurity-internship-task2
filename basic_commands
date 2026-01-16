@@ -1,0 +1,17 @@
+# Enable/disable
+sudo ufw enable
+sudo ufw disable
+
+# Check status
+sudo ufw status verbose
+
+# Allow/deny services
+sudo ufw allow ssh
+sudo ufw allow 80/tcp
+sudo ufw deny 23/tcp
+
+# Allow specific IP
+sudo ufw allow from 192.168.1.100
+
+# Delete rule
+sudo ufw delete allow ssh
