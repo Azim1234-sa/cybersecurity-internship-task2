@@ -1,0 +1,18 @@
+# Edit SSH config
+sudo nano /etc/ssh/sshd_config
+
+# Make these changes:
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+Port 2222  # Change from default 22
+Protocol 2
+MaxAuthTries 3
+ClientAliveInterval 300
+ClientAliveCountMax 2
+
+# Restart SSH
+sudo systemctl restart sshd
+
+# Create SSH keys for users
+ssh-keygen -t rsa -b 4096
