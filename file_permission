@@ -1,0 +1,12 @@
+# View permissions
+ls -la
+
+# Change file permissions
+chmod 755 script.sh      # rwxr-xr-x
+chmod 644 document.txt   # rw-r--r--
+
+# Change ownership
+sudo chown username:groupname filename
+
+# Set sticky bit for directories
+chmod +t /shared_folder
