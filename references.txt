@@ -1,0 +1,286 @@
+============================================
+OS SECURITY RESOURCES & REFERENCES
+============================================
+Useful Links for OS Security Learning
+============================================
+📚 OFFICIAL DOCUMENTATION
+Ubuntu Security
+Ubuntu Security Documentation: https://ubuntu.com/security
+
+UFW (Uncomplicated Firewall): https://help.ubuntu.com/community/UFW
+
+AppArmor Documentation: https://wiki.ubuntu.com/AppArmor
+
+SSH Hardening Guide: https://ubuntu.com/server/docs/security-ssh
+
+Windows Security
+Windows Security Documentation: https://docs.microsoft.com/en-us/windows/security/
+
+Windows Defender Firewall: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/
+
+Windows Hardening Guide: https://docs.microsoft.com/en-us/windows/security/threat-protection/
+
+Linux General
+Linux Documentation Project: https://www.tldp.org/
+
+Linux Security HOWTO: https://www.tldp.org/HOWTO/Security-HOWTO/
+
+Arch Linux Security: https://wiki.archlinux.org/title/Security
+
+🎓 LEARNING PLATFORMS
+Free Courses
+Cybrary: https://www.cybrary.it/catalog/
+
+TryHackMe: https://tryhackme.com/
+
+Hack The Box: https://www.hackthebox.com/
+
+OverTheWire: https://overthewire.org/wargames/
+
+YouTube Channels
+NetworkChuck: https://www.youtube.com/c/NetworkChuck
+
+John Hammond: https://www.youtube.com/c/JohnHammond010
+
+David Bombal: https://www.youtube.com/c/DavidBombal
+
+IppSec: https://www.youtube.com/c/ippsec
+
+🔧 SECURITY TOOLS
+Linux Security Tools
+Fail2ban: https://www.fail2ban.org/
+
+ClamAV: https://www.clamav.net/
+
+Lynis: https://cisofy.com/lynis/
+
+Rkhunter: http://rkhunter.sourceforge.net/
+
+AIDE: https://aide.github.io/
+
+Chkrootkit: http://www.chkrootkit.org/
+
+Windows Security Tools
+Sysinternals Suite: https://docs.microsoft.com/en-us/sysinternals/
+
+Windows Defender: Built-in
+
+Microsoft Security Compliance Toolkit: https://www.microsoft.com/en-us/download/details.aspx?id=55319
+
+Network Security Tools
+Nmap: https://nmap.org/
+
+Wireshark: https://www.wireshark.org/
+
+Metasploit: https://www.metasploit.com/
+
+Burp Suite: https://portswigger.net/burp
+
+📖 BOOKS & GUIDES
+Recommended Books
+"The Linux Command Line" by William Shotts
+
+"Linux Basics for Hackers" by OccupyTheWeb
+
+"Windows Internals" by Mark Russinovich
+
+"Practical Malware Analysis" by Michael Sikorski
+
+"The Web Application Hacker's Handbook"
+
+Free E-Books
+Linux Journey: https://linuxjourney.com/
+
+Linux Command Library: https://linuxcommandlibrary.com/
+
+OWASP Testing Guide: https://owasp.org/www-project-web-security-testing-guide/
+
+🏛️ SECURITY STANDARDS
+Compliance Frameworks
+CIS Benchmarks: https://www.cisecurity.org/cis-benchmarks/
+
+NIST Guidelines: https://csrc.nist.gov/publications
+
+ISO 27001: https://www.iso.org/isoiec-27001-information-security.html
+
+PCI DSS: https://www.pcisecuritystandards.org/
+
+Security Checklists
+CIS Ubuntu 20.04 Benchmark: https://www.cisecurity.org/benchmark/ubuntu_linux
+
+Microsoft Security Baseline: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-security-baselines
+
+SANS Critical Security Controls: https://www.sans.org/critical-security-controls/
+
+🗂️ PRACTICE PLATFORMS
+Capture The Flag (CTF)
+CTFTime: https://ctftime.org/
+
+PicoCTF: https://picoctf.org/
+
+VulnHub: https://www.vulnhub.com/
+
+CTF Learn: https://ctflearn.com/
+
+Labs & Practice
+PentesterLab: https://pentesterlab.com/
+
+Web Security Academy: https://portswigger.net/web-security
+
+OWASP Juice Shop: https://owasp.org/www-project-juice-shop/
+
+DVWA (Damn Vulnerable Web App): http://www.dvwa.co.uk/
+
+💼 CAREER & COMMUNITY
+Security Certifications
+CompTIA Security+
+
+CEH (Certified Ethical Hacker)
+
+OSCP (Offensive Security Certified Professional)
+
+CISSP (Certified Information Systems Security Professional)
+
+Communities & Forums
+Reddit: r/cybersecurity, r/netsec, r/linux
+
+Stack Exchange: Information Security, Server Fault
+
+Discord: Many cybersecurity servers
+
+Twitter: Follow security researchers
+
+Blogs & News
+Krebs on Security: https://krebsonsecurity.com/
+
+The Hacker News: https://thehackernews.com/
+
+Security Weekly: https://securityweekly.com/
+
+Schneier on Security: https://www.schneier.com/
+
+🎯 SPECIFIC GUIDES
+Linux Hardening Guides
+Hardening Ubuntu 20.04: https://github.com/konstruktoid/hardening
+
+Debian Security Hardening: https://wiki.debian.org/Hardening
+
+CentOS/RHEL Hardening: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/
+
+Windows Hardening Guides
+Windows 10/11 Hardening Guide: https://github.com/0x6d69636b/windows_hardening
+
+Windows Server Hardening: https://docs.microsoft.com/en-us/windows-server/security/windows-security-baselines
+
+Windows Privacy Settings: https://www.privacytools.io/operating-systems/#win10
+
+SSH Hardening
+SSH Hardening Guide: https://ssh-audit.com/hardening_guides.html
+
+SSH Best Practices: https://www.ssh.com/academy/ssh/sshd_config
+
+📊 MONITORING & LOGGING
+Tools
+Auditd: Linux audit framework
+
+Logwatch: https://sourceforge.net/projects/logwatch/
+
+Fail2ban: https://www.fail2ban.org/
+
+Osquery: https://osquery.io/
+
+Guides
+Linux Logging Guide: https://www.loggly.com/ultimate-guide/linux-logging-basics/
+
+Windows Event Logging: https://docs.microsoft.com/en-us/windows/win32/eventlog/event-logging
+
+🔐 ENCRYPTION
+Linux Encryption
+LUKS Disk Encryption: https://gitlab.com/cryptsetup/cryptsetup
+
+GnuPG: https://gnupg.org/
+
+OpenSSL: https://www.openssl.org/
+
+Windows Encryption
+BitLocker: https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/
+
+EFS (Encrypting File System): https://docs.microsoft.com/en-us/windows/win32/fileio/file-encryption
+
+🚨 INCIDENT RESPONSE
+Guides
+NIST Incident Response Guide: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+
+SANS Incident Response: https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901
+
+Tools
+The Sleuth Kit: http://www.sleuthkit.org/
+
+Autopsy: https://www.sleuthkit.org/autopsy/
+
+Volatility: https://www.volatilityfoundation.org/
+
+📝 NOTE-TAKING & DOCUMENTATION
+Tools
+CherryTree: https://www.giuspen.com/cherrytree/
+
+Joplin: https://joplinapp.org/
+
+Standard Notes: https://standardnotes.com/
+
+Templates
+Pentest Report Template: https://github.com/juliocesarfort/public-pentesting-reports
+
+Security Assessment Template: https://github.com/rmusser01/Infosec_Reference
+
+🆘 HELP & SUPPORT
+Forums
+Ubuntu Forums: https://ubuntuforums.org/
+
+Stack Overflow: https://stackoverflow.com/
+
+Server Fault: https://serverfault.com/
+
+IRC/Discord
+#ubuntu on Libera.Chat
+
+#security on various Discord servers
+
+OWASP Discord: https://discord.com/invite/owasp
+
+🎓 ADDITIONAL LEARNING PATHS
+Learning Roadmaps
+Cybersecurity Roadmap: https://github.com/campusx-official/cybersecurity-roadmap
+
+Linux Administration Roadmap: https://github.com/campusx-official/linux-roadmap
+
+Windows Security Roadmap: https://github.com/campusx-official/windows-security-roadmap
+
+Practice Projects
+Set up a hardened web server
+
+Create a VPN server
+
+Build a SIEM (Security Information and Event Management)
+
+Set up a honeypot
+
+Conduct a vulnerability assessment
+
+============================================
+IMPORTANT NOTES:
+
+Always test in a lab environment first
+
+Keep systems updated regularly
+
+Backup before making major changes
+
+Document all configurations
+
+Stay updated with latest security news
+============================================
+
+Last Updated: 16-01-2026
+Compiled By: MD AZIM UDDIN
+For: Task 2 - OS Security Fundamentals
