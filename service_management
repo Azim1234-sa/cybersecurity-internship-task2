@@ -1,0 +1,13 @@
+# List all services
+systemctl list-unit-files --type=service
+
+# Check service status
+sudo systemctl status ssh
+
+# Stop unnecessary service
+sudo systemctl stop bluetooth
+sudo systemctl disable bluetooth
+
+# Disable vulnerable services
+sudo systemctl disable telnet
+sudo systemctl disable rpcbind
